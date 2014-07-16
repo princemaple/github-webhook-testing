@@ -6,7 +6,7 @@ class App < ActiveRecord::Base
   ## {
   ##  "id": 1,
   ##  "name": "Tester",
-  ##  "single_install": true
+  ##  "single_install": false
   ## }
   ## ```
   def as_json
