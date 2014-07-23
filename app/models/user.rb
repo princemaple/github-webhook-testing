@@ -4,7 +4,8 @@ class User < ActiveRecord::Base
   ## {
   ##   "id":   1,
   ##   "name": "Po Chen",
-  ##   "role": 999
+  ##   "role": 999,
+  ##   "last_login": "2000-1-1"
   ## }
   ## ```
   def as_json
