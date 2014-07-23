@@ -3,7 +3,8 @@ class User < ActiveRecord::Base
   ## ```js
   ## {
   ##   "id":   1,
-  ##   "name": "Mick Staugaard"
+  ##   "name": "Po Chen",
+  ##   "role": 999
   ## }
   ## ```
   def as_json
